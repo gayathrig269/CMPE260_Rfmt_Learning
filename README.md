@@ -9,19 +9,19 @@ Policy – The algorithm used, either Tabular Q Learning or Min-Max in determini
 Reward/Punishment – A player wins or loses the game.
 
 
-Part 0:
+# Part 0:
 Setting up a 3X3 Tic-Tac-Toe board.
 
-Part 1:Using Minimum-Maximum algorithm, train the agent to play against Random Player and itself. Results are plotted and statistics is taken for conclusion.
+# Part 1:Using Minimum-Maximum algorithm, train the agent to play against Random Player and itself. Results are plotted and statistics is taken for conclusion.
 
-Min-Max Strategy:
+# Min-Max Strategy:
 1. Assumptions
    Make the best move (max. game value for us)
    Opp. will also make the best move.(min. the game value for us)
 2. Internal cache storage – game board position. Compute all possible continuations from a given position only once. 
 
-Part 2:
-Using Tabular Q Learning policy, training the agent to perform better than Min-Max agents and Random player.Results are plotted and statistics is taken for conclusion.
+# Part 2:
+Using # Tabular Q Learning policy, training the agent to perform better than Min-Max agents and Random player.Results are plotted and statistics is taken for conclusion.
 
 Tabular Q Function : 
 By looking up the Q values for all possible moves in the current situation and chose the one with the highest value. 
@@ -32,8 +32,8 @@ Draw – 0.5
 Learning rate(alpha) – 0.9 and (Discount factor)gamma – 0.95
 
 
-Part 3:
-Using QLearning strategy, build a Neural Network to play against other agents. Experimented with Epsilon parameter to use less greedy approach. 
+# Part 3:
+Using QLearning strategy, build a # Neural Network to play against other agents. Experimented with Epsilon parameter to use less greedy approach. 
 
 We implement the Neural Network Q Learning player in the following way:
 
