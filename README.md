@@ -57,7 +57,7 @@ and other optimzer- Adam.
 Experimented with Epsilon parameter to overcome the more greedy approach. 
 Plots against other RL agent are analysed for every battle. 
 
-Conclusion:
+# Conclusion:
 1. Tabular Q Player learns a strategy after a lot of games. Not feasable for games like Go,Chess etc. which require a lot of states S.
 2. Min-Max Player does not require any learning, but does assume that opponent plays best.
 3. Neural network player uses greedy strategy and avoids risks, exploration. Only the last game is fed into the network, so network assumes receives negative feedback, if the game was was lost. Epsilon greedy strategy saw the agent perform better. 
