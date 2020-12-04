@@ -1,4 +1,4 @@
-# CMPE260_Rfmt_Learning
+# CMPE260_Rfmt_Learning_TicTacToe
 To train or teach a computer on how to play the game of Tic-Tac-Toe using different Reinforcement Learning concepts like Min Max algorithm to Neural Networks. 
 
 Agent – Player of the game, either Min-Max agent, Tabular Q agent, or Neural Network agent. 
