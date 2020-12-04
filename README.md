@@ -47,4 +47,12 @@ We implement the Neural Network Q Learning player in the following way:
   6. We use the Gradient Descent Optimizer for training — i.e., to adjust the weights in the Neural Network. 
   7. We use ReLu activation function.
 
-Used other activation functions like tanh,sigmoid,leaky reLU and other optimzer- Adam. Experimented with Epsilon parameter to use less greedy approach. Plots against every RL agent is analysed for every battle. 
+We used other activation functions like 
+tanh,
+sigmoid,
+leaky reLU 
+and other optimzer- Adam. 
+
+Experimented with Epsilon parameter to overcome the more greedy approach. 
+
+Plots against other RL agent are analysed for every battle. 
