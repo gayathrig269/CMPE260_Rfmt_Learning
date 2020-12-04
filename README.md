@@ -1,5 +1,5 @@
 # CMPE260_Rfmt_Learning
-This project is about teaching a computer play TicTacToe games using Reinforcement Learning concepts.
+To train or teach a computer on how to play the game of Tic-Tac-Toe using different Reinforcement Learning concepts like Min Max algorithm to Neural Networks. 
 
 Part 0:
 Setting up a 3X3 Tic-Tac-Toe board.
