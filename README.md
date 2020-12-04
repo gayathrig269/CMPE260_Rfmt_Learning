@@ -11,8 +11,8 @@ Reward/Punishment – A player wins or loses the game.
 
 # Part 0: Setting up a 3X3 Tic-Tac-Toe board.
 
-# Part 1: Min-MAx 
-Using Minimum-Maximum algorithm, train the agent to play against Random Player and itself. 
+# Part 1: Min-Max 
+Using Minimum-Maximum algorithm, we train the agent to play against Random Player and itself. 
 
 Min-Max Strategy:
 1. Assumptions
@@ -57,6 +57,6 @@ Experimented with Epsilon parameter to overcome the more greedy approach.
 Plots against other RL agent are analysed for every battle. 
 
 Conclusion:
-1. Tabular Q Player learns a strategy after a lot of games.
+1. Tabular Q Player learns a strategy after a lot of games. Not feasable for games like Go,Chess etc. which require a lot of states S.
 2. Min-Max Player does not require any learning, but does assume that opponent plays best.
 3. Neural network player uses greedy strategy and avoids risks, exploration. Only the last game is fed into the network, so network assumes receives negative feedback, if the game was was lost. Epsilon greedy strategy saw the agent perform better. 
