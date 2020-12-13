@@ -9,7 +9,7 @@ Policy – The algorithm used, either Tabular Q Learning or Min-Max in determini
 Reward/Punishment – A player wins or loses the game.
 
 
-# Part 0: Setting up a 3X3 Tic-Tac-Toe board
+# Part 0: Setting up a 3X3 Tic-Tac-Toe board and introduces a Random player
 This notebook contains 3X3 board initialization, initiates a Random player.
 
 # Part 1: Min-Max 
